@@ -151,7 +151,7 @@ body{
     font-size: 13px;
     color: #666;
 }
-@media screen and (max-width: 732px) {
+@media screen and (max-width: 700px) {
     .footer-container {
         flex-direction: column;
         align-items: center;
@@ -165,7 +165,7 @@ body{
     .social-icons {
         justify-content: center;
     }
-    .container {
+     .container {
         flex-direction: column;
         text-align: center;
     }
@@ -177,10 +177,10 @@ body{
     .image {
         width: 250px;
     }
+    
 }
 
 .container{
-     width: 100%;
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -191,7 +191,7 @@ body{
 }
 .image{
     height: 500px;
-    max-width: 150%;
+    
    
 }
 .heading{
@@ -204,10 +204,8 @@ body{
     font-size: 20px;
 }
 .course-section {
-    width: 100%;
-    max-width: 1200px;
     margin: auto;
-    padding: 40px 20px;
+   max-width: 1200px;
   
 }
 .course-title {
@@ -219,6 +217,7 @@ body{
  background: #fff;
     width: 260px;
     padding: 20px;
+    margin-top: 10px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     transition: 0.3s ease;
@@ -228,7 +227,7 @@ body{
 }
 
 .card-img {
-  width: 100%;
+  width: 100px;
   height: 90px;
   border-radius: 12px;
   background: #f0f0f0;
@@ -236,6 +235,7 @@ body{
 .tag {
   display: inline-block;
   right: 20px;
+  margin-top: 30px;
   background: #e6f4ea;
   color: #2e7d32;
   padding: 5px 10px;
