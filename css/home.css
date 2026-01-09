@@ -181,19 +181,20 @@ body{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 40px;
+    padding: 30px 30px;
     gap: 20px;
-    background-color: pink;
-   
+    background-color: #fff2e6;
+   border-radius: 20px;
 }
 .image{
-    height: 500px;
-    
+    height: 450px;
+    margin-bottom: 50px;
+    margin-left: 40px;
    
 }
 .heading{
@@ -266,4 +267,14 @@ body{
     gap: 25px;
     flex-wrap: wrap;
     
+}
+.image-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #994a00;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+ 
 }
