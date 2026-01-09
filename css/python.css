@@ -153,3 +153,79 @@ body {
   margin-top: 15px;
   border-radius: 6px;
 }
+
+@media (max-width: 992px) {
+
+  .main {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .course-info-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .rating-summary {
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .main-text {
+    text-align: center;
+  }
+
+  .btn-primary {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .course-info-container {
+    grid-template-columns: 1fr;
+  }
+
+  .info-box {
+    text-align: center;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav a {
+    padding: 8px 0;
+  }
+
+  .accordion-header {
+    font-size: 15px;
+  }
+
+  .rating-bars div {
+    font-size: 14px;
+  }
+}
