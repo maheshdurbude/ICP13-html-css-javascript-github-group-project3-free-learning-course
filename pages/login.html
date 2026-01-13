@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Login | SkillSprout</title>
-   <style>
-     * {
+  <meta charset="UTF-8">
+  <title>Login | SkillSprout</title>
+
+  <style>
+    * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -17,6 +17,7 @@
       background: linear-gradient(135deg, #ddb892, #ede0d4);
     }
 
+    
     .app-title {
       background: #ffffff;
       border: 2px solid #d9d9d9;
@@ -69,6 +70,7 @@
       cursor: pointer;
     }
 
+ 
     .main-container {
       width: 800px;
       height: 430px;
@@ -193,7 +195,7 @@
       color: #666;
     }
 
-     @media (max-width: 900px) {
+    @media (max-width: 900px) {
       .main-container {
         flex-direction: column;
         width: 90%;
@@ -228,10 +230,13 @@
         justify-content: center;
       }
     }
-   </style>
-   </head>
+  </style>
+</head>
+
 <body>
-   <div class="app-title">
+
+
+  <div class="app-title">
     <img src="./images/logo.png" class="logo">
     <h2 class="title">SkillSprout</h2>
 
@@ -244,7 +249,9 @@
     </div>
 
     <img src="./images/hamburger.png" class="hamburger-icon" onclick="toggleMenu()">
-  </div> 
+  </div>
+
+  
   <div class="main-container">
     <div class="left-panel">
       <h1>Welcome Back ☕</h1>
@@ -272,6 +279,7 @@
     </div>
   </div>
 
+
   <footer class="footer">
     <div class="footer-container">
       <div class="footer-section">
@@ -294,8 +302,9 @@
     </div>
   </footer>
 
+ 
   <script>
-     function toggleMenu() {
+    function toggleMenu() {
       document.querySelector(".navbar").classList.toggle("show");
     }
 
@@ -304,5 +313,6 @@
       input.type = input.type === "password" ? "text" : "password";
     }
   </script>
+
 </body>
 </html>
