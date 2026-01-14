@@ -222,7 +222,7 @@ button:hover {
   background: #994a00 ;
   color: #fff;
   padding: 10px 16px;
-  border-radius: 8px;
+  border-radius: 20px;
   font-weight: 600;
   transition: 0.1s;
   width: fit-content;
