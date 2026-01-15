@@ -7,6 +7,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color:  #ffe4cc ;
    
 }
 .navbar{
@@ -82,10 +83,10 @@ body{
     }
 }
 .footer {
-    background-color: #ffe4cc  ;
+    background-color: white ;
     border-top: 2px solid #d9d9d9;
     font-family: 'Times New Roman', Times, serif;
-    padding: 40px 20px 20px;
+    padding: 20px 10px 10px;
     margin-top: 20px;
 }
 
@@ -338,4 +339,13 @@ body{
         margin-left: 10px;
         margin-bottom: 10px;
     }  
+}
+.nav{
+    text-decoration: none;
+    color: black;
+}
+.nav:hover{
+    
+  position:relative ;
+
 }
