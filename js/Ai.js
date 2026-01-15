@@ -16,6 +16,7 @@ function toggleAccordion(header) {
   body.style.display = body.style.display === "block" ? "none" : "block";
 }
 
+<<<<<<< HEAD
 
 function showSection(id) {
   document.querySelectorAll('.section').forEach(sec => {
@@ -37,4 +38,9 @@ function toggleAccordion(header) {
 function toggleMenu() {
         document.querySelector(".navbar").classList.toggle("show");
     }
+=======
+function toggleMenu() {
+        document.querySelector(".navbar").classList.toggle("show");
+}
+>>>>>>> 67943b8c75243cab5571fc82358a0737281011f0
 
