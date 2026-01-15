@@ -76,3 +76,4 @@ searchBar.addEventListener("input", function () {
         }
     }
 });
+
