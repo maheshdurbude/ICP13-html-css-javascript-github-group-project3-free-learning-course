@@ -84,22 +84,21 @@ body{
 }
  .card-container{
             border: 1px solid black;
-            background-color:  #F5F7FA;
+            background-color:  #ddb892;
             border: none;
             max-width: 800px;     
             margin: 40px auto;   
             padding: 20px;
             border-radius: 12px;
             box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-            
-            
+            height: auto;
             
         }
          .container {
            display: flex;
            align-items: center;
            justify-content: center;
-           background-color: #F5F7FA;
+           background-color: #ddb892;
            border-radius: 10px;
         }
 
