@@ -42,6 +42,11 @@ The Free Learning Website is a responsive and modern educational platform design
 4. **Dipti Bhawar** (courses details page)
 5. **Maheshwar Durbude** (todo & notes page) 
 
+
+<a href="https://github.com/pranalipekhale13/ICP13-html-css-javascript-github-group-project3-free-learning-course/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=pranalipekhale13/ICP13-html-css-javascript-github-group-project3-free-learning-course" />
+</a>
+
 ## 📞 Contact
 SkillSprout Team
 
