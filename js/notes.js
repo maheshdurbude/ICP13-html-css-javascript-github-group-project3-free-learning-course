@@ -79,3 +79,6 @@ searchBar.addEventListener("input", function () {
     }
 });
 
+function toggleMenu() {
+        document.querySelector(".navbar").classList.toggle("show");
+    }
