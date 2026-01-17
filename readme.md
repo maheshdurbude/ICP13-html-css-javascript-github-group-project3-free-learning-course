@@ -36,11 +36,11 @@ The Free Learning Website is a responsive and modern educational platform design
 5. Create a user profile from the Create Account page.
 ## Contributors
 
-1. **Pranali Pekhale** (Home page)
+1. **Pranali Pekhale** (Home & Notes page)
 2. **Devki Darandale** (signup & login page)
 3. **Bhagyashri Sanap** (courses page)
 4. **Dipti Bhawar** (courses details page)
-5. **Maheshwar Durbude** (todo & notes page) 
+5. **Maheshwar Durbude** (todo page) 
 
 
 <a href="https://github.com/pranalipekhale13/ICP13-html-css-javascript-github-group-project3-free-learning-course/graphs/contributors">
