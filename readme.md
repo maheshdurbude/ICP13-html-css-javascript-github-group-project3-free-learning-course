@@ -19,7 +19,7 @@ The Free Learning Website is a responsive and modern educational platform design
 
 🚀 Fast loading, clean layout, and user-friendly design
 ## 🛠️ Technologies Used
-- HTML5
+- HTML
 
 - CSS
 
