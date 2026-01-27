@@ -311,6 +311,11 @@ body{
     padding:6px 15px;
     cursor: pointer;
 }
+.btn2:hover{
+       background: #333;
+  transition: 0.1s;
+
+}
 .theme-toggle{ 
    position: fixed;
     width: fit-content;
